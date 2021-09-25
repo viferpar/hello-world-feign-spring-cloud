@@ -1,0 +1,12 @@
+spring:
+  application.name: hello-world
+  cloud.kubernetes.reload.enabled: true
+server.port: 8100
+management:
+  endpoint:
+    restart:
+      enabled: true
+    health:
+      enabled: true
+    info:
+      enabled: true
